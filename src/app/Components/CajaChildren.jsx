@@ -2,7 +2,7 @@
 function CajaChildren({ children }) {
   return (
     <div>
-{/* 
+{/* children
       // Propósito: Crear un contenedor que muestre el contenido pasado como children, 
 // demostrando cómo React maneja elementos hijos dentro de un componente. */}
 
