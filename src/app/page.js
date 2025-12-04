@@ -1,14 +1,14 @@
 // Importamos el componente Image de Next.js para optimizar imágenes automáticamente
 import Image from "next/image";
 
-// Importamos los componentes personalizados creados en la carpeta "componentes"
-import SaludoBasico from "./componentes/SaludoBasico";
-import SaludoDesestructurado from "./componentes/SaludoDesestructurado";
-import PerfilConObjeto from "./componentes/PerfilConObjeto";
-import BotonConCallback from "./componentes/BotonConCallback";
-import ContenedorRenderProp from "./componentes/ContenedorRenderProp";
-import CajaChildren from "./componentes/CajaChildren";
-import SaludoConDefaultProps from "./componentes/SaludoConDefaultProps";
+// Importamos los componentes personalizados creados en la carpeta "components"
+import SaludoBasico from "./components/SaludoBasico";
+import SaludoDesestructurado from "./components/SaludoDesestructurado";
+import PerfilConObjeto from "./components/PerfilConObjeto";
+import BotonConCallback from "./components/BotonConCallback";
+import ContenedorRenderProp from "./components/ContenedorRenderProp";
+import CajaChildren from "./components/CajaChildren";
+import SaludoConDefaultProps from "./components/SaludoConDefaultProps";
 
 // Componente principal de la página Home
 export default function Home() {

@@ -1,18 +1,13 @@
 import React from 'react'
 
-export default function ContenedorRenderProp(contenido, render) {
+export default function ContenedorRenderProp({ contenido, render }) {
   return (
     <>
-{/* PRUEBA
-    // Propósito: Renderizar contenido dinámico mediante el patrón Render Props, 
-// aceptando un elemento o una función que retorna un elemento React. */}
+      <h1>Contenedor Render</h1>
 
-      <h1>
-        Contenedor render
-      </h1>
-      
-       <p>{render ? render() : "la pampara"}</p> 
-        
+      <p>
+        {render ? render(contenido) : contenido}
+      </p>
     </>
   )
 }

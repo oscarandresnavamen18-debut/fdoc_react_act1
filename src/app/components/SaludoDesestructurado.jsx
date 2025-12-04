@@ -1,20 +1,13 @@
 import React from 'react'
 
-export default function SaludoDesestructurado(props) {
-  const nombre = 'juan';
-  const edad = 20;
+export default function SaludoDesestructurado({ nombre, edad }) {
   return (
     <div>
+      <h1>Perfil de {nombre}</h1>
 
-    {/* // Propósito: Desplegar el nombre y la edad del usuario utilizando desestructuración 
-// directamente en los parámetros del componente. */}
-
-        <h1>
-          PERFIL DE JUAN
-
-          <p>hola {nombre}, tu edad es {edad}</p>
-            
-        </h1>
+      <p>
+        Hola {nombre}, tu edad es {edad}
+      </p>
     </div>
   )
 }

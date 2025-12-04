@@ -1,22 +1,10 @@
+import React from 'react'
 
-function CajaChildren({ children }) {
+export default function CajaChildren({ children }) {
   return (
     <div>
-{/* children
-      // Propósito: Crear un contenedor que muestre el contenido pasado como children, 
-// demostrando cómo React maneja elementos hijos dentro de un componente. */}
-
-    <h1>Contenido de CajaChildren</h1>
+      <h1>Contenido de CajaChildren</h1>
       {children}
     </div>
   )
 }
-
-export default CajaChildren
-
-
-  
-
-
-
-
